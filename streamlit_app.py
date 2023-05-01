@@ -11,7 +11,7 @@ def main():
         st.session_state['streamlit_gallery.utils.page_page_group_p'] = 0
 
     with st.sidebar:
-        st.title("🎈 Okld's Gallery")
+        st.title("🎈 Aisullu Social Spy")
 
         with st.expander("✨ APPS", True):
             page.item("Streamlit gallery", apps.gallery, default=True)
@@ -23,6 +23,12 @@ def main():
             page.item("Pandas profiling", components.pandas_profiling)
             page.item("Quill editor", components.quill_editor)
             page.item("React player", components.react_player)
+
+        with st.sidebar:
+            token = st.text_input("Введите токен:",
+                                  value="1de87fc11de87fc11de87fc1ee1efb566d11de81de87fc179d10abdb96a9bbfea467460")
+            # token = st.text_input("Введите токен:", value="2ff60f692ff60f692ff60f695e2ce4eed822ff62ff60f694c094cb35bc606f13492ff84")
+            count = st.text_input("Введите количество постов:", value=100)
 
     page.show()
 
