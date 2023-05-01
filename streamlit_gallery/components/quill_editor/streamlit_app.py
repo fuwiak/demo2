@@ -1,5 +1,5 @@
 import streamlit as st
-
+import openai
 from streamlit_gallery.utils.readme import readme
 from streamlit_quill import st_quill
 
@@ -20,6 +20,8 @@ def main():
 
         if content:
             st.subheader("Content")
+
+
             st.text(content)
     with st.sidebar:
         token_opeai = st.text_input("Введите токен OPENAI:",
