@@ -1,6 +1,7 @@
 import streamlit as st
 
 from PIL import Image
+from pathlib import Path
 
 image1 = Image.open('./media/images/mountains.png')
 image2 = Image.open('./media/images/AI_logo.png')
