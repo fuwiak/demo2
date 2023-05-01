@@ -15,5 +15,6 @@ pandas-profiling
 requests
 
 openai
+pandasai
 
 
