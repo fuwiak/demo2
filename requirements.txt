@@ -17,5 +17,5 @@ requests
 openai
 pandasai
 astor
-
+dotenv
 
