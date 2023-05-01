@@ -5,7 +5,7 @@ from streamlit_gallery.utils.readme import readme
 
 
 def main():
-    with readme("streamlit-player", st_player, __file__):
+    with readme("Video Analyzer", st_player, __file__):
         c1, c2, c3 = st.columns([3, 3, 2])
 
         with c3:
