@@ -20,7 +20,7 @@ def main():
             page.item("Ace editor", components.ace_editor)
             page.item("Disqus", components.disqus)
             page.item("Analytics📊", components.elements)
-            page.item("Pandas AI", components.pandas_profiling)
+            page.item("Pandas AI🐼", components.pandas_profiling)
             page.item("GPT editor", components.quill_editor)
             page.item("Video analyzer", components.react_player)
 
