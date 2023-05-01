@@ -5,6 +5,8 @@ import streamlit as st
 from streamlit_gallery.utils.readme import readme
 from streamlit_pandas_profiling import st_profile_report
 import pandasai
+from pandasai import PandasAI
+from pandasai.llm.openai import OpenAI
 
 def main():
     st.write("# Pandas AI")

@@ -16,5 +16,6 @@ requests
 
 openai
 pandasai
+astor
 
 
