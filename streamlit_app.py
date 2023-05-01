@@ -19,10 +19,10 @@ def main():
         with st.expander("🧩 COMPONENTS", True):
             page.item("Ace editor", components.ace_editor)
             page.item("Disqus", components.disqus)
-            page.item("Elements📊", components.elements)
-            page.item("Pandas profiling", components.pandas_profiling)
-            page.item("Quill editor", components.quill_editor)
-            page.item("React player", components.react_player)
+            page.item("Analytics📊", components.elements)
+            page.item("Pandas AI", components.pandas_profiling)
+            page.item("GPT editor", components.quill_editor)
+            page.item("Video analyzer", components.react_player)
 
         # with st.sidebar:
         #     token = st.text_input("Введите токен:",
