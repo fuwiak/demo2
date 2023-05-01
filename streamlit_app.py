@@ -19,7 +19,7 @@ def main():
         with st.expander("🧩 COMPONENTS", True):
             page.item("Ace editor", components.ace_editor)
             page.item("Disqus", components.disqus)
-            page.item("Elements⭐", components.elements)
+            page.item("Elements📊", components.elements)
             page.item("Pandas profiling", components.pandas_profiling)
             page.item("Quill editor", components.quill_editor)
             page.item("React player", components.react_player)
@@ -29,6 +29,8 @@ def main():
                                   value="1de87fc11de87fc11de87fc1ee1efb566d11de81de87fc179d10abdb96a9bbfea467460")
             # token = st.text_input("Введите токен:", value="2ff60f692ff60f692ff60f695e2ce4eed822ff62ff60f694c094cb35bc606f13492ff84")
             count = st.text_input("Введите количество постов:", value=100)
+
+
 
     page.show()
 
