@@ -16,6 +16,4 @@ requests
 
 openai
 pandasai
-astor
-pyyaml
-```
+
