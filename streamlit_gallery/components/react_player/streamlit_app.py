@@ -37,7 +37,7 @@ def main():
 
 
     with c1:
-        url = st.text_input("First URL", "https://youtu.be/c9k8K1eII4g")
+        url = st.text_input("First URL", "https://www.youtube.com/watch?v=9TdL_IEaZsw&list=RDMM9TdL_IEaZsw&start_radio=1")
         event = st_player(url, **options, key="youtube_player")
 
         st.write(event)
