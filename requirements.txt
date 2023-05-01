@@ -1,5 +1,6 @@
 # Core
 streamlit
+streamlit-quill
 
 # Streamlit components
 streamlit-ace
