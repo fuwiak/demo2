@@ -5,7 +5,7 @@ from streamlit_gallery.utils.readme import readme
 
 
 def main():
-    st.write("# React player")
+    # st.write("# React player")
     c1, c2, c3 = st.columns([3, 3, 2])
 
     with c3:
